@@ -1,4 +1,4 @@
-FROM python:3
+FROM --platform=linux/arm/v7 python:3
 
 WORKDIR /usr/src/app
 
