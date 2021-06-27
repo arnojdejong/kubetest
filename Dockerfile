@@ -1,4 +1,5 @@
-FROM python:3-alpine
+ARG ARCH=
+FROM ${ARCH}python:3-alpine
 EXPOSE 5000
 
 WORKDIR /usr/src/app
